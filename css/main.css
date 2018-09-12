@@ -1,0 +1,29 @@
+body {
+	padding-top: 25px;
+	width: 100%;
+}
+
+#zip, ul {
+	margin: auto;
+	width: 300px;
+}
+.selected_li {
+	background-color: gray;
+}
+li {
+	padding: 5px 0;
+	cursor: pointer;
+}
+.selected_li:after {
+	margin-left: 20px;
+	content: 'selected';
+	color: green;
+	font-size: 75%;
+	vertical-align: center;
+}
+li:hover {
+	background-color: lightgray;
+}
+li:active {
+	color: red;
+}
